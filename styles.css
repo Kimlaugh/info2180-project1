@@ -9,3 +9,60 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+h1{
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+}
+ li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+ }
+
+div.overview-hero-image>img{
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.overview-hero{
+    padding-bottom: 150px;
+    padding-top: 80px;
+}
+
+.learn-about .cards{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+}
+
+.cards .card:nth-child(1) img{
+    width: 200px;
+    height: 300px; 
+}
+
+.cards .card:nth-child(2) img{
+    width: 200px;
+    height: 300px;
+}
+
+.cards .card:nth-child(3) img{
+    width: 200px;
+    height: 300px;
+}
+
