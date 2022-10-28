@@ -66,3 +66,20 @@ div.overview-hero-image>img{
     height: 300px;
 }
 
+.testing .container{
+    display: flex;
+}
+
+div.cta{
+    white-space: nowrap;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container article img{
+    border-radius: 50%;
+    width: 200px;
+    height: 175px;
+}
