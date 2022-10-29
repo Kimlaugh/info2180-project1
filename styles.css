@@ -169,7 +169,12 @@ article{
 }
 
 form{
-    display: flex;
+    display: grid;
+    grid-template-columns: 60% 25%;
+    width: 100%;
+    grid-gap: 40px;
+
+
 }
 
 .testing .container{
@@ -190,12 +195,13 @@ form{
 }
 
 form button{
-    margin-left: 5px;
+    margin-left: 0;
     background-color: #5A67D8;
     color: white;
     padding: 15px 30px 15px 30px;
     border: 0px;
-    border-radius: 5px; 
+    border-radius: 5px;
+    width: 100%;
 }
 
 .newsletter h3{
@@ -223,7 +229,13 @@ footer p{
 }
 
 #email{
-    padding: 15px 35px 15px 175px;
+    padding: 15px 0 15px 35px;
     border-radius: 5px; 
     border: 0px;
+    width: 100%;
+}
+
+.message{
+    color: white;
+    margin-top: 20px;
 }
